@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/src/index.js",
+    "dev": "nodemon --watch 'src/**/*.ts'  --exec tsx src/index.ts"
   },
   "author": "",
   "type": "module",
@@ -15,6 +17,7 @@
     "nodemon": "^3.1.14",
     "ts-node": "^10.9.2",
     "tsc": "^2.0.4",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   },
   "dependencies": {
