@@ -1,0 +1,16 @@
+{
+  "name": "backfill_dev_tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsc": "^2.0.4",
+    "typescript": "^7.0.2"
+  }
+}
