@@ -6,8 +6,9 @@
   "scripts": {
     "test": " vitest run",
     "start": "node dist/src/index.js",
-    "dev": "nodemon --watch 'src/**/*.ts'  --exec tsx src/index.ts"
+    "dev": "nodemon --watch src/**/*.ts  --exec tsx src/index.ts"
   },
+
   "author": "",
   "type": "module",
   "license": "ISC",
@@ -15,13 +16,15 @@
     "@types/express": "^5.0.6",
     "@types/node": "^26.6.5",
     "@types/supertest": "^7.2.1",
+    "@types/winston": "^2.4.4",
     "nodemon": "^3.1.14",
     "supertest": "^7.3.1",
     "ts-node": "^10.9.2",
     "tsc": "^2.0.4",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
-    "vitest": "^5.0.5"
+    "vitest": "^5.0.5",
+    "winston": "^3.19.0"
   },
   "dependencies": {
     "dotenv": "^18.0.8",
