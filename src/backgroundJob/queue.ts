@@ -6,8 +6,12 @@ import { redisConnection } from "./connection.js";
 const OperationQueue= new Queue<operationFileType>(
     "process_operation",
     {
-        connection:redisConnection
+        connection:redisConnection,
+        defaultJobOptions:{
+            removeOnComplete:true,
+            removeOnFail:true
+        }
     }
-    
+
 
 )
