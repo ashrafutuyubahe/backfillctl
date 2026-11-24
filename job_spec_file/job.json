@@ -1,6 +1,6 @@
 
 {
-  "name": "",
+  "name": "users-full-name",
   "table": "public.users",
   "key": "id",
   "set": "full_name = first_name || ' ' || last_name",
