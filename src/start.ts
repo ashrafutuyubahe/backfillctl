@@ -21,15 +21,15 @@ const validOperationFile = parseOPerationFile(rawData);
 console.log(validOperationFile)
 
 /* processing Job
-  1. we need to initialize a job that will start operation using bullmq
+1. we need to initialize a job that will start operation using bullmq
      - establish  agnostic database connection without overloading the db
      -check if tables,columns exist and match what available in db
      -check if the operation is valid on that table(
            ->checking nbr of rows against supplied ones
            ->
       )
-     - Begin update operation and keep track of progress and retries using redis 
-  2.
+2. Begin update operation and keep track of progress and retries using redis 
+  
 
 */
 
