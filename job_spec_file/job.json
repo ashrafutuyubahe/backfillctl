@@ -1,0 +1,12 @@
+
+{
+  "name": "users-full-name",
+  "table": "public.users",
+  "key": "id",
+  "set": "full_name = first_name || ' ' || last_name",
+  "where": "full_name IS NULL",
+  "batch": {
+    "size": 1000,
+    "delayMs": 50
+  }
+}
